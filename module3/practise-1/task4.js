@@ -13,7 +13,7 @@ for (const entry of entries) {
     const value = entry[1];
   
     console.log(`${key}: ${value}`);
-  }
+}
 
 const findS = function () {
     console.log(cafe.width * cafe.height);

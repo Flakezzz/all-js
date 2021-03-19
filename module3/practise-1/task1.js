@@ -8,8 +8,11 @@ showUserName = function () {
 },
 
 updateAge = function () {
-    console.log(user.age + 1);
+    console.log(user.age += 1);
 }
 
 showUserName();
+updateAge();
+updateAge();
+updateAge();
 updateAge();

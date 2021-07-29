@@ -158,8 +158,14 @@ console.log(getUsersWithFriend(users, 'Goldie Gentry')); // [ 'Elma Head', 'Sher
 
 const getNamesSortedByFriendsCount = users => {
 
-  const sortFn = (a, b) => a.friends - b.friends
-  return users.sort();
+  const sortFn = (a, b) => a.friends.length - b.friends.length;
+    const result9 = users
+
+    .sort(sortFn)
+
+    .map(user => user.name)
+  return result9;
+
 };
 
 console.log(getNamesSortedByFriendsCount(users));

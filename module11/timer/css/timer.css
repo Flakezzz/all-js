@@ -1,0 +1,9 @@
+.field {
+    width: 200px;
+    height: auto;
+    display: inline-block;
+}
+
+.value {
+    font-size: 50px;
+}
